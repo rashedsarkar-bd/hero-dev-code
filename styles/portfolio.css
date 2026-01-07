@@ -31,14 +31,11 @@
 .section-heading{
   max-width: 827px;
   text-align: center;
-  margin: 0 auto;
-
 }
 
 .section-heading h2{
   font-size: 35px;
   margin-bottom: 30px;
-
 }
 
 .section-heading p{
@@ -46,8 +43,6 @@
   margin-bottom: 30px;
   line-height: 30px;
   color: #757575;
-
-
 }
 
 #about .about-container .about-info{
@@ -131,7 +126,7 @@ nav .menu a{
   vertical-align:middle;
 }
 
-#about{
+#about, #resume{
   padding-top: 130px;
 
 }
@@ -202,6 +197,53 @@ color: #757575;
 
 }
 
-.resume-container{
-  display: flex;
+
+#resume{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
 }
+
+.resume-container{
+  margin: 113px auto 0;
+  display: flex;
+  gap: 24px;
+}
+
+.resume-container .section-title{
+  color: #474747;
+  font-size: 30px;
+  margin-bottom: 30px;
+  
+}
+
+.resume-card{
+  max-width: 511px;
+  margin-right: 47px;
+}
+
+.card-title{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #474747;
+}
+
+.card-info{
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.card-text{
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+}
+
+hr{
+  margin: 30px 0;
+}
+
+
